@@ -1,2 +1,0 @@
-# ProjectEuler
-Making ProjectEulers' tasks
