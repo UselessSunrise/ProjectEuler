@@ -16,7 +16,7 @@ int main(){
 
     for(int i = 1;i*i < MAXNUM;i++){
         if(numbers[i] == 1){
-            for(int k = (i+1) *(i+1);k <= MAXNUM;k += i+1 ){/*Adding one because indexeses are 1,2,3... but numbers are 2,3,4...*/
+            for(int k = (i+1) *(i+1);k <= MAXNUM;k += i+1 ){/*Adding one because indexes are 1,2,3... but numbers are 2,3,4...*/
                 numbers[k-1] = 0;
             }
         }
