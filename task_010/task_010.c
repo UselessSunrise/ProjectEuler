@@ -5,7 +5,7 @@
 
 #define MAXNUM 2000000
 
-int main(){
+static int main(){
     long sum = 0;
     int numbers[MAXNUM]; /*It will be easier to deal with using massive*/
     /*Now we need to fill the massive with ones*/
